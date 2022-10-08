@@ -149,10 +149,10 @@ h1, h2, h3, h4, h5, h6 {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #b6b6b6;
 }
 .masthead-title a {
-  color: #505050;
+  color: #878787;
 }
 .masthead-title small {
   font-size: 75%;
@@ -358,7 +358,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #969696;
 }
 .page-title,
 .post-title {
