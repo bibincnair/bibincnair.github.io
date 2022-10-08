@@ -38,6 +38,8 @@
 html,
 body {
   overflow-x: hidden;
+  color: #d0d0d0;
+  background-color: rgb(24 26 27);
 }
 
 html {
