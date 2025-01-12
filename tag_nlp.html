@@ -1,0 +1,11 @@
+---
+layout: default
+title: "Posts tagged with 'nlp'"
+---
+
+<h1>Posts tagged with 'nlp'</h1>
+<ul>
+  {% for post in site.tags.nlp %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
