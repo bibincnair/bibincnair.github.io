@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Paper Reading - Attention is all you need.
+tags: [nlp, transformer, attention]
 ---
 
 ### Overview
