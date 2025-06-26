@@ -1,34 +1,36 @@
-# My Academic Blog
+# Stochastic Scribbler ✨
 
-This is my personal academic blog where I write about research papers, books, and courses I'm studying. Built with Jekyll using the clean and minimal Lanyon theme, this site serves as my digital notebook for documenting my learning journey in AI, NLP, and related fields.
+Personal blog by **Bibin** documenting explorations in technology, research papers, and development. Built with Jekyll using the modern and feature-rich Hydejack theme.
 
 ## What You'll Find Here
 
-- **📄 Paper Reviews**: Deep dives into research papers with technical explanations, key insights, and mathematical formulations
-- **📚 Book Notes**: Summaries and reflections on technical books I'm reading
-- **🎓 Course Notes**: Documentation of online courses, lectures, and learning materials
-- **🧠 Survey Papers**: Comprehensive reviews of survey papers covering important topics in AI/ML
+- **📄 Paper Reviews**: Deep dives into research papers with technical explanations and key insights
+- **📚 Book Notes**: Summaries and reflections on technical books and learning materials
+- **🎓 Course Notes**: Documentation from online courses, lectures, and tutorials
+- **💻 Development**: Programming insights, tools, and best practices
+- **🧠 Research**: Comprehensive reviews covering important topics in AI/ML
 
 ## Recent Topics
 
 - Transformer architectures and attention mechanisms
-- Large Language Models (LLMs) and their applications
-- Parameter-efficient fine-tuning techniques
+- Large Language Models (LLMs) and training techniques
+- Parameter-efficient fine-tuning methods
 - GPU computing and parallel programming
-- DevOps practices and methodologies
+- DevOps practices and system design
 
 ## Technical Setup
 
-This blog is built with:
-- **Jekyll** for static site generation
-- **MathJax 3** for rendering mathematical equations
-- **Lanyon theme** for clean, content-focused design
-- **GitHub Pages** for hosting
+This blog is powered by:
+- **Jekyll 4.3** for static site generation
+- **Hydejack 9** theme for modern, responsive design
+- **KaTeX** for fast mathematical equation rendering
+- **GitHub Actions** for automated deployment to GitHub Pages
+- **Custom branding** with personalized logo and styling
 
 
-## Running Locally
+## Development
 
-To run this blog locally for development:
+To run this blog locally:
 
 ```bash
 # Install dependencies
@@ -40,29 +42,42 @@ bundle exec jekyll serve
 # Visit http://localhost:4000
 ```
 
-## Writing Posts
+### Writing Posts
 
-Posts are written in Markdown and stored in the `_posts/` directory. Each post requires front matter with a title, date, and tags:
+Posts are written in Markdown and stored in the `_posts/` directory:
 
 ```markdown
 ---
 layout: post
 title: "Your Post Title"
-date: 2025-06-26
-tags: [nlp, survey, transformer]
+tags: [nlp, research, programming]
 ---
 
 Your content here...
 ```
 
-Mathematical equations are supported via MathJax:
+Mathematical equations are supported via KaTeX:
 - Inline: `$E = mc^2$`
 - Display: `$$\text{Attention}(Q,K,V) = \text{softmax}(QK^T/\sqrt{d_k})V$$`
 
+### Theme Customization
+
+- **Logo**: Custom logo in `/assets/img/logo.png`
+- **Favicon**: Browser tab icon in `/assets/img/favicon.png`
+- **Sidebar**: Background image in `/assets/img/sidebar-bg.png`
+- **Colors**: Accent colors configured in `_config.yml`
+
+## Deployment
+
+The site uses GitHub Actions for automated building and deployment:
+- Push to `main` branch triggers automatic deployment
+- Built with Jekyll and deployed to GitHub Pages
+- Uses `remote_theme` for Hydejack compatibility
+
 ## Contact
 
-Feel free to reach out if you have questions about any of the content or want to discuss the topics I write about.
+Questions or discussions about the content? Feel free to reach out!
 
 ---
 
-*This blog is built on the Lanyon theme by Mark Otto. Original theme documentation and licensing information can be found in the [Lanyon repository](https://github.com/poole/lanyon).*
+*Built with the [Hydejack](https://hydejack.com/) Jekyll theme.*
