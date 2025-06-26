@@ -1,0 +1,187 @@
+# Resume Data
+# This file contains all the information for your resume in JSON Resume format.
+# Edit this file to customize your resume content.
+
+basics:
+  name: "Bibin"
+  label: "Software Engineer & Research Enthusiast"
+  picture: "/assets/img/logo.png"
+  email: "bibinc17@gmail.com"
+  phone: ""
+  website: "https://bibinyana.github.io"
+  summary: >
+    Passionate software engineer with expertise in systems programming, AI/ML research, 
+    and scalable backend development. I enjoy exploring cutting-edge technologies, 
+    contributing to open-source projects, and sharing knowledge through technical writing.
+  location:
+    address: ""
+    postalCode: ""
+    city: ""
+    countryCode: ""
+    region: ""
+  profiles:
+    - network: "GitHub"
+      username: "bibinyana"
+      url: "https://github.com/bibinyana"
+    - network: "LinkedIn"
+      username: "your-linkedin"
+      url: "https://linkedin.com/in/your-linkedin"
+    - network: "Twitter"
+      username: "your-twitter"
+      url: "https://twitter.com/your-twitter"
+
+work:
+  - company: "Your Current Company"
+    position: "Senior Software Engineer"
+    website: "https://company.com"
+    startDate: "2022-01-01"
+    endDate: ""
+    summary: >
+      Lead backend development initiatives and mentor junior engineers in best practices.
+    highlights:
+      - "Designed and implemented scalable microservices architecture serving 1M+ users"
+      - "Reduced system latency by 40% through optimization of critical data paths"
+      - "Led cross-functional team of 6 engineers to deliver major platform features"
+      - "Mentored 3 junior developers and established coding standards for the team"
+
+  - company: "Previous Company"
+    position: "Software Engineer"
+    website: "https://previouscompany.com"
+    startDate: "2020-06-01"
+    endDate: "2021-12-31"
+    summary: >
+      Developed full-stack applications and contributed to core platform improvements.
+    highlights:
+      - "Built RESTful APIs using Rust and Go serving thousands of requests per second"
+      - "Implemented CI/CD pipelines reducing deployment time by 60%"
+      - "Collaborated with product team to define technical requirements and timelines"
+      - "Contributed to open-source projects used by the engineering organization"
+
+volunteer:
+  - organization: "Local Tech Meetup"
+    position: "Technical Speaker"
+    website: "https://techmeetup.com"
+    startDate: "2021-01-01"
+    endDate: ""
+    summary: "Regular speaker on topics related to systems programming and AI/ML"
+    highlights:
+      - "Delivered talks on Rust programming and performance optimization"
+      - "Organized workshops for beginners in systems programming"
+
+education:
+  - institution: "University Name"
+    area: "Computer Science"
+    studyType: "Bachelor of Science"
+    startDate: "2016-09-01"
+    endDate: "2020-05-31"
+    gpa: "3.8"
+    courses:
+      - "Algorithms and Data Structures"
+      - "Systems Programming"
+      - "Machine Learning"
+      - "Database Systems"
+      - "Computer Networks"
+
+awards:
+  - title: "Best Engineering Solution"
+    date: "2023-03-01"
+    awarder: "Current Company"
+    summary: "Recognized for innovative approach to solving complex technical challenges"
+
+  - title: "Open Source Contributor Award"
+    date: "2022-08-01"
+    awarder: "Tech Community"
+    summary: "Acknowledged for significant contributions to popular open-source projects"
+
+publications:
+  - name: "Understanding Transformer Architectures: A Deep Dive"
+    publisher: "Personal Blog"
+    releaseDate: "2024-01-15"
+    website: "https://bibinyana.github.io/2024-01-15-transformer-architectures/"
+    summary: "Comprehensive analysis of attention mechanisms and transformer models"
+
+  - name: "Rust for Systems Programming: Performance and Safety"
+    publisher: "Tech Conference Proceedings"
+    releaseDate: "2023-11-20"
+    website: "https://conference.com/proceedings"
+    summary: "Exploring Rust's advantages in systems-level programming"
+
+skills:
+  - name: "Programming Languages"
+    level: "Expert"
+    keywords:
+      - "Rust"
+      - "Go"
+      - "Python"
+      - "JavaScript/TypeScript"
+      - "C/C++"
+
+  - name: "Backend Development"
+    level: "Expert"
+    keywords:
+      - "Microservices"
+      - "REST APIs"
+      - "GraphQL"
+      - "Database Design"
+      - "Performance Optimization"
+
+  - name: "Machine Learning"
+    level: "Advanced"
+    keywords:
+      - "PyTorch"
+      - "TensorFlow"
+      - "Transformers"
+      - "Deep Learning"
+      - "NLP"
+
+  - name: "DevOps & Infrastructure"
+    level: "Advanced"
+    keywords:
+      - "Docker"
+      - "Kubernetes"
+      - "CI/CD"
+      - "AWS/GCP"
+      - "Monitoring"
+
+  - name: "Tools & Technologies"
+    level: "Advanced"
+    keywords:
+      - "Git"
+      - "Linux"
+      - "PostgreSQL"
+      - "Redis"
+      - "Kafka"
+
+languages:
+  - language: "English"
+    fluency: "5/5"
+  - language: "Korean"
+    fluency: "4/5"
+  - language: "Japanese"
+    fluency: "2/5"
+
+interests:
+  - name: "Research"
+    keywords:
+      - "AI/ML Papers"
+      - "Systems Programming"
+      - "Performance Engineering"
+  
+  - name: "Open Source"
+    keywords:
+      - "Contributing to Projects"
+      - "Maintaining Libraries"
+      - "Community Building"
+  
+  - name: "Writing"
+    keywords:
+      - "Technical Blogging"
+      - "Documentation"
+      - "Knowledge Sharing"
+
+references:
+  - name: "Jane Doe"
+    reference: >
+      Bibin is an exceptional engineer who combines technical excellence with strong
+      leadership skills. His ability to solve complex problems and mentor others
+      makes him a valuable asset to any team.

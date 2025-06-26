@@ -58,10 +58,10 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog Posts
+  - title:             Blog
     url:               /posts/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Resume
+    url:               /resume/
   - title:             About
     url:               /about/
 
@@ -102,7 +102,7 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 # You can use a simple path or advanced options with overlay and background color
-# accent_image:          /assets/img/sidebar-bg.png
+accent_image:          /assets/img/sidebar-bg.png
 # Advanced example:
 # accent_image:
 #   background: rgb(32,32,32)  # Background color if image fails to load
@@ -419,21 +419,21 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.png
     posts:
       layout: post
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.png
     projects:
       layout: project
       description: > 
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/sidebar-bg.png
       links:
         - title: Project Link
           url: https://example.com
