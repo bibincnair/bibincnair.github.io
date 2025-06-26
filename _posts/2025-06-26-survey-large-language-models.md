@@ -5,8 +5,6 @@ date: 2025-06-26
 tags: [nlp, survey, llm, large-language-models]
 ---
 
-# A Survey of Large Language Models
-
 ## Introduction
 
 This post provides an overview and analysis of the survey paper "A Survey of Large Language Models" which comprehensively examines the current state, capabilities, and future directions of large language models.

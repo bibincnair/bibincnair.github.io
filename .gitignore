@@ -1,0 +1,25 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.bundle/
+vendor/bundle/
+
+# Logs and backups
+*.log
+*.bak
+_config.yml.bak
+_includes.bak/
+
+# Node.js
+node_modules/
+
+# Bower components
+public/bower_components/
+
+# Other generated files
+public/css/
+public/js/
+public/icons/
+public/img/
+public/presentation/
