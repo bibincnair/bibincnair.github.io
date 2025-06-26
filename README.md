@@ -1,134 +1,68 @@
-# Lanyon
+# My Academic Blog
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+This is my personal academic blog where I write about research papers, books, and courses I'm studying. Built with Jekyll using the clean and minimal Lanyon theme, this site serves as my digital notebook for documenting my learning journey in AI, NLP, and related fields.
 
-![Lanyon](https://f.cloud.github.com/assets/98681/1825266/be03f014-71b0-11e3-9539-876e61530e24.png)
-![Lanyon with open sidebar](https://f.cloud.github.com/assets/98681/1825267/be04a914-71b0-11e3-966f-8afe9894c729.png)
+## What You'll Find Here
 
+- **📄 Paper Reviews**: Deep dives into research papers with technical explanations, key insights, and mathematical formulations
+- **📚 Book Notes**: Summaries and reflections on technical books I'm reading
+- **🎓 Course Notes**: Documentation of online courses, lectures, and learning materials
+- **🧠 Survey Papers**: Comprehensive reviews of survey papers covering important topics in AI/ML
 
-## Contents
+## Recent Topics
 
-- [Usage](#usage)
-- [Options](#options)
-  - [Sidebar menu](#sidebar-menu)
-  - [Themes](#themes)
-  - [Reverse layout](#reverse-layout)
-- [Development](#development)
-- [Author](#author)
-- [License](#license)
+- Transformer architectures and attention mechanisms
+- Large Language Models (LLMs) and their applications
+- Parameter-efficient fine-tuning techniques
+- GPU computing and parallel programming
+- DevOps practices and methodologies
 
+## Technical Setup
 
-## Usage
-
-Lanyon is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
-
-
-## Options
-
-Lanyon includes some customizable options, typically applied via classes on the `<body>` element.
+This blog is built with:
+- **Jekyll** for static site generation
+- **MathJax 3** for rendering mathematical equations
+- **Lanyon theme** for clean, content-focused design
+- **GitHub Pages** for hosting
 
 
-### Sidebar menu
+## Running Locally
 
-Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
+To run this blog locally for development:
 
+```bash
+# Install dependencies
+bundle install
+
+# Start the Jekyll server
+bundle exec jekyll serve
+
+# Visit http://localhost:4000
 ```
+
+## Writing Posts
+
+Posts are written in Markdown and stored in the `_posts/` directory. Each post requires front matter with a title, date, and tags:
+
+```markdown
 ---
-layout: page
-title: About
+layout: post
+title: "Your Post Title"
+date: 2025-06-26
+tags: [nlp, survey, transformer]
 ---
+
+Your content here...
 ```
 
-**Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
+Mathematical equations are supported via MathJax:
+- Inline: `$E = mc^2$`
+- Display: `$$\text{Attention}(Q,K,V) = \text{softmax}(QK^T/\sqrt{d_k})V$$`
 
+## Contact
 
-### Themes
+Feel free to reach out if you have questions about any of the content or want to discuss the topics I write about.
 
-Lanyon ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
+---
 
-![Lanyon with red theme](https://f.cloud.github.com/assets/98681/1825270/be065110-71b0-11e3-9ed8-9b8de753a4af.png)
-![Lanyon with red theme and open sidebar](https://f.cloud.github.com/assets/98681/1825269/be05ec20-71b0-11e3-91ea-a9138ef07186.png)
-
-There are eight themes available at this time.
-
-![Available theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
-
-To use a theme, add any one of the available theme classes to the `<body>` element in the `default.html` layout, like so:
-
-```html
-<body class="theme-base-08">
-  ...
-</body>
-```
-
-To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/lanyon/blob/master/public/css/lanyon.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
-
-
-### Reverse layout
-
-![Lanyon with reverse layout](https://f.cloud.github.com/assets/98681/1825265/be03f2e4-71b0-11e3-89f1-360705524495.png)
-![Lanyon with reverse layout and open sidebar](https://f.cloud.github.com/assets/98681/1825268/be056174-71b0-11e3-88c8-5055bca4307f.png)
-
-Reverse the page orientation with a single class.
-
-```html
-<body class="layout-reverse">
-  ...
-</body>
-```
-
-
-### Sidebar overlay instead of push
-
-Make the sidebar overlap the viewport content with a single class:
-
-```html
-<body class="sidebar-overlay">
-  ...
-</body>
-```
-
-This will keep the content stationary and slide in the sidebar over the side content. It also adds a `box-shadow` based outline to the toggle for contrast against backgrounds, as well as a `box-shadow` on the sidebar for depth.
-
-It's also available for a reversed layout when you add both classes:
-
-```html
-<body class="layout-reverse sidebar-overlay">
-  ...
-</body>
-```
-
-### Sidebar open on page load
-
-Show an open sidebar on page load by modifying the `<input>` tag within the `sidebar.html` layout to add the `checked` boolean attribute:
-
-```html
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
-```
-
-Using Liquid you can also conditionally show the sidebar open on a per-page basis. For example, here's how you could have it open on the homepage only:
-
-```html
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.title =="Home" %}checked{% endif %}>
-```
-
-## Development
-
-Lanyon has two branches, but only one is used for active development.
-
-- `master` for development.  **All pull requests should be to submitted against `master`.**
-- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
-
-
-## Author
-
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
-
-
-## License
-
-Open sourced under the [MIT license](LICENSE.md).
-
-<3
+*This blog is built on the Lanyon theme by Mark Otto. Original theme documentation and licensing information can be found in the [Lanyon repository](https://github.com/poole/lanyon).*
