@@ -102,7 +102,7 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 # You can use a simple path or advanced options with overlay and background color
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/sidebar-bg.png
 # Advanced example:
 # accent_image:
 #   background: rgb(32,32,32)  # Background color if image fails to load
