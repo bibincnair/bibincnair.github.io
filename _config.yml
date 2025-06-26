@@ -48,6 +48,7 @@ author:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-include-cache
 
 # Custom vars
 version: 1.1.0
