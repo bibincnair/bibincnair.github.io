@@ -40,6 +40,14 @@ keywords:              ["Development", "paper notes", "Rust", "Golang"]
 # It also used by the `jekyll-seo-tag` plugin.
 logo:                  /assets/img/logo.png
 
+# FAVICON CONFIGURATION
+# The icon that appears in browser tabs, bookmarks, etc.
+# Can be .ico, .png, or .svg format
+favicon:               /assets/img/favicon.png
+
+# Apple Touch Icon for iOS devices when site is saved to home screen  
+apple_touch_icon:      /assets/img/favicon.png
+
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
