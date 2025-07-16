@@ -186,6 +186,12 @@ defaults:
     values:
       seo:
         type:          WebPage
+  - scope:
+      type:            portfolio
+    values:
+      layout:          portfolio-item
+      seo:
+        type:          WebPage
 
 kramdown:
   math_engine:         katex
@@ -313,6 +319,10 @@ collections:
 
   projects:
     permalink:         /projects/:path/
+    output:            true
+
+  portfolio:
+    permalink:         /portfolio/:name/
     output:            true
 
 
