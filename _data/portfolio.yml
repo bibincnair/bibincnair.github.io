@@ -1,0 +1,12 @@
+- title: Project 1
+  image: /assets/img/blog/example-content-ii.jpg
+  description: "A short description of project 1."
+  url: "#"
+- title: Project 2
+  image: /assets/img/blog/example-content-iii.jpg
+  description: "A short description of project 2."
+  url: "#"
+- title: Project 3
+  image: /assets/img/blog/hydejack-9.jpg
+  description: "A short description of project 3."
+  url: "#"

@@ -10,8 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 gem "jekyll", "~> 4.3"
 
-# Use remote_theme instead of gem for GitHub Pages compatibility
-# gem "jekyll-theme-hydejack", "~> 9.1"
+gem "jekyll-theme-hydejack", "~> 9.1"
 
 # If you are part of the ["Customers" team](https://github.com/orgs/hydecorp/teams/pro-customers), 
 # you can fetch the theme from a private repository. 
@@ -54,7 +53,7 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-titles-from-headings"
   gem "jekyll-include-cache"
-  gem "jekyll-remote-theme"
+  
 
   # Non-Github Pages plugins:
   gem "jekyll-last-modified-at"
