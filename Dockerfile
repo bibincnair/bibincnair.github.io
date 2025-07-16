@@ -13,7 +13,7 @@ COPY Gemfile Gemfile.lock ./
 
 # Install gem dependencies using Bundler
 # The --jobs 4 flag can speed up the installation
-RUN bundle update --jobs 4
+RUN bundle install --jobs 4
 
 # Copy the rest of your Jekyll site source code into the container
 COPY . .
