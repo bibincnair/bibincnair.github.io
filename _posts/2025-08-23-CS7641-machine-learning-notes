@@ -1,0 +1,51 @@
+## Module 1
+### Lecture notes
+#### Classification and Regression
+Classification is the process of taking some type of inputs and marking it to discrete label. e.g. True and False.
+**Concept:** An idea that describes a set of things. e.g. What credit worthiness is , what male is etc. Mapping between objects in the world and membership in a set.
+**Target concept**   Thing that we are trying to find.
+**Hypothesis:** Set of all concepts that are under consideration.
+**Sample:** Training set.
+**Candidate** Selecting a target concept from among the all the candidate concepts.
+**Testing** Use set of separate samples to check for the validitng of candidate concepts.
+
+#### Decision Trees
+Expressiveness of decision trees  
+- In the case of AND and OR, need two nodes, in case of XOR 3 nodes are required.
+- In case n-OR, size of the nodes in decision tree is linear.
+- In case on n-XOR,  parity determines the leaf value, odd parity, e.g. odd no. of TRUE, results in TRUE, else FALSE. More or less O(2^n) nodes, or exponential no. of nodes.
+- The number of different values for such a set of nodes in 2^(2^n)  
+
+**ID3**  
+ID3 (Examples, Target_Attribute, Attributes)
+1. Create a Root node for the tree.
+
+2. If all Examples belong to the same class, Return the single-node tree Root with that class label.
+
+3. If Attributes is empty, Return the single-node tree Root with the most common class label in Examples.
+
+4. Otherwise, Begin:
+    a. Calculate the entropy of the current set of Examples.
+    b. For each attribute in Attributes:
+        i. Calculate the Information Gain from splitting on that attribute.
+    c. Let A be the attribute with the highest Information Gain.
+    d. Set A as the decision attribute for the Root node.
+    e. For each value (v_i) of attribute A:
+        i. Add a new branch below Root, corresponding to the test A = v_i.
+        ii. Let Examples(v_i) be the subset of Examples with value v_i for A.
+        iii. If Examples(v_i) is empty:
+             - Add a leaf node under this branch with the most common class label in the original Examples.
+        iv. Else:
+             - Recursively call the algorithm to add a subtree under this branch:
+               ID3(Examples(v_i), Target_Attribute, Attributes - {A})
+5. Return Root.
+
+### Book notes
+
+## Module 2
+### Lecture notes
+### Book notes
+
+## Module 3
+### Lecture notes
+### Book notes
