@@ -40,6 +40,16 @@ ID3 (Examples, Target_Attribute, Attributes)
                ID3(Examples(v_i), Target_Attribute, Attributes - {A})
 5. Return Root.
 
+#### Bias
+Restriction Bias: Hypothesis set you care about.
+Preference Bias: What sort of hypothesis from hypothesis set we prefer. (Inductive bias)
+ID3 inductive bias:
+- Good splits at the top.
+- Correct over incorrect.
+- Shorter trees over longer trees.
+
+Avoid overfitting by pruning and CV.
+
 ### Book notes
 
 ## Module 2
